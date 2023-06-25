@@ -2,11 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=9">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/styles/style.css">
+  <title>Triton</title>
 </head>
 <body>
-  
-  <article id="listMovies" class="row"></article>
+  <triton-header></triton-header>
+  <main>
+    <div class="content">
+      <div id="slider">
+        <button id="left-button"><i class="fa-solid fa-arrow-left"></i></button>
+        <button id="right-button"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+  </main>
+  <script type="module" src="/script/src/models/fetch.js"></script>
 </body>
 </html>

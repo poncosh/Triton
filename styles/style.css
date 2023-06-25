@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  height: 100vh;
+  width: 100%;
+  background: #000000;
+  display: grid;
+  place-items: center;
+}
+#slider {
+  display: flex;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x:scroll;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+}
+#slider::-webkit-scrollbar {
+  display: none;
+}
+#right-button {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  height: 35px;
+  width: 35px;
+  background-color: aliceblue;
+}
+#left-button {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  height: 35px;
+  width: 35px;
+  background-color: aliceblue;
+}
+img {
+  padding: 5px;
+}
