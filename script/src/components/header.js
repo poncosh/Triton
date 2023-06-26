@@ -11,12 +11,12 @@ class Header extends HTMLElement {
   render() {
     this.innerHTML = `
     <div class="logo">
-      <h2>Club Finder</h2>
+      <h2>Triton</h2>
     </div>
     <div class="navigator">
       <ul>
-        <li><a href="#">Home<a><li>
-        <li><a href="#">About<a><li>
+        <li><a href="#">Sign Up<a><li>
+        <li><a href="#">Sign In<a><li>
       </ul>
     </div>
     `
