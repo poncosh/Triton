@@ -1,6 +1,6 @@
 import { Factory } from "../models.js";
 
-function main() {
+const main = () => {
   const url = 'https://api.themoviedb.org/3/movie/'
   const popular = 'popular?api_key=e2923bb091eb5f1665ef35e297887675&language=en-US&page=1'
   const latestRelease = 'now_playing?api_key=e2923bb091eb5f1665ef35e297887675&language=en-US&page=1'

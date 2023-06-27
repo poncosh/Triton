@@ -18,6 +18,12 @@ class Header extends HTMLElement {
         <li><a href="#">Sign Up<a><li>
         <li><a href="#">Sign In<a><li>
       </ul>
+      <div id="bars">
+        <input id="checkBars" type="checkbox">
+        <label for="checkBars" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+      </div>
     </div>
     `
   }
